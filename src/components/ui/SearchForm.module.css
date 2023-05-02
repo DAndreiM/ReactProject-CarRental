@@ -1,0 +1,17 @@
+.searchForm{
+    display:flex;
+    align-items: center;
+}
+
+.searchForm input{
+    border: none;
+    color:black;
+    outline: none;
+}
+
+.searchForm button{
+    padding:0;
+    background-color: white;
+    border: none;
+    border-left: 1px solid black;
+}

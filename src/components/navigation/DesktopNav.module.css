@@ -1,0 +1,167 @@
+.desktopNavFirst{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desktopNavFirst div:first-of-type{
+    display:flex;
+    align-items: center;
+    color:white;
+    gap:1rem;
+    padding:0.5rem 0;
+}
+
+.desktopNavFirst div:first-of-type img{
+    max-width: 30px;
+}
+
+.desktopNavFirst div:first-of-type p{
+    margin:0;
+}
+
+.desktopNavFirst div:last-of-type a{
+    color:white;
+    text-decoration: none;
+    margin:0 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.desktopNavFirst div:last-of-type a:hover{
+    color:orange;
+    border-bottom: 1px solid orange;
+}
+
+.desktopNavSecond{
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:darkblue;
+    font-weight: bold;
+    padding:1rem 0;
+}
+
+.desktopNavSecond p{
+    margin:0;
+}
+
+.desktopNavSecond p:last-of-type{
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.desktopNavSecond div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktopNavSecond img{
+    max-width: 30px;
+    margin-right: 0.3rem;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.callButton{
+    border: none;
+    background-color: darkblue;
+    color:white;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    border-radius: 5px;
+}
+
+.callButton img{
+    max-width: 25px;
+}
+
+.callButton:hover{
+    background-color: orange;
+    color:black;
+}
+
+.callButton:active{
+    transform: scale(1.1);
+}
+
+.active{
+    color:orange;
+    border-bottom: 1px solid orange;
+}
+
+.desktopNavPages{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0.5rem;
+    background-color: darkblue;
+}
+
+.desktopNavPages ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display:flex;
+}
+
+.desktopNavPages a{
+    margin:0 0.7rem;
+    color:white;
+}
+
+.desktopNavPages a:hover{
+    color:orange;
+    border-bottom: 1px solid orange;
+}
+
+.desktopNavPages .active{
+    color:orange !important;
+}
+
+.additionalInfoContainer{
+    position: relative;
+    max-height: 45rem;
+    overflow: hidden;
+}
+
+.additionalInfoContainer img{
+    width:100%;
+    object-fit: cover;
+}
+
+.additionalInfoContainer div{
+    color:white;
+    position: absolute;
+    z-index: 100;
+    top:30%;
+    left:10%;
+}
+
+.additionalInfoContainer button{
+    color:darkblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:0.5rem;
+    cursor: pointer;
+}
+
+.additionalInfoContainer button:active{
+    transform: scale(1.1);
+}
+
+@media(max-width:37rem){
+    .desktopNav{
+        display:none;
+    }
+}
+

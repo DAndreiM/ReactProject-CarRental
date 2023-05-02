@@ -1,0 +1,38 @@
+.carSearchForm{
+    box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    margin:auto;
+    display:flex;
+    transform: translateY(-5rem);
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    background-color: rgba(0, 0, 139, 0.95);
+    padding:0.5rem;
+    object-fit: cover;
+}
+
+.carSearchForm input{
+    margin:0.5rem 0;
+}
+
+.carSearchForm img{
+    max-height: 8rem;
+    object-fit: cover;
+    background-color: red;
+    filter:grayscale(0.9)
+}
+
+.carSearchForm div{
+    height:7rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.carSearchForm input,
+.carSearchForm select{
+    height:2rem;
+    margin:0;
+    padding:0;
+}
+
