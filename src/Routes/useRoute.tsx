@@ -15,6 +15,26 @@ const useRoute = () => {
           index: true,
           element: <HomePage />,
         },
+        {
+          path: "cars",
+          element: (
+            <ProtectedRoutes>
+              <HomePage />
+            </ProtectedRoutes>
+          ),
+          children: [
+            {
+              path: ":carID",
+              element: <HomePage />,
+              children: [
+                {
+                  path: "rent",
+                  element: <HomePage />,
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {

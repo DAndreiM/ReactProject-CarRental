@@ -1,0 +1,195 @@
+.carSearchForm{
+    box-shadow: 2px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    margin:auto;
+    display:flex;
+    transform: translateY(-5rem);
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    background-color: rgba(0, 0, 139, 0.95);
+    padding:0.5rem;
+    object-fit: cover;
+}
+
+.carSearchForm input{
+    margin:0.5rem 0;
+}
+
+.carSearchForm img{
+    max-height: 8rem;
+    object-fit: cover;
+    background-color: red;
+    filter:grayscale(0.9)
+}
+
+.carSearchForm div{
+    height:7rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.carSearchForm input,
+.carSearchForm select{
+    height:2rem;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+
+.about{
+    width:95%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutIntro{
+    max-width: 800px;
+}
+
+.aboutIntro h3{
+    color:orange;
+}
+
+.aboutIntro h1{
+    color:darkblue;
+}
+
+.aboutIntro p{
+    text-indent: 1rem;
+    font-size: 0.95rem;
+}
+
+.aboutIntroText{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.aboutIntro div{
+    margin-right: 2rem;
+}
+
+.aboutCarImg{
+    width:100%;
+    max-width: 500px;
+}
+
+.sectionTitle{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sectionTitle h3{
+    color:orange;
+}
+
+.sectionTitle h1{
+    color:darkblue;
+}
+
+.sectionTitle p{
+    text-indent: 1rem;
+    font-size: 0.95rem;
+}
+
+.popularServices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 940px;
+    margin:auto;
+}
+
+.popularServicesItem{
+    max-width: 19rem;
+}
+
+.popularServicesItem h3{
+    color:darkblue;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.popularServices p{
+    font-size: 0.9rem;
+}
+
+.hotOffers{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin:auto;
+}
+
+.hotOfferItem{
+    border:0.2px solid rgba(128, 128, 128, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    padding:0.3rem;
+    max-width: 30rem;
+}
+
+.offerCarImg{
+    width:100%;
+    max-width: 350px;
+}
+
+.hotOfferItem h4{
+    color:darkblue;
+}
+
+.hotOfferItem p{
+    color:darkblue;
+}
+
+.carChara{
+    display:flex;
+}
+.carChara p{
+    margin:1rem;
+    color:black;
+}
+
+.itemActions{
+    width:100%;
+    text-align: center;
+}
+
+.itemActions button:first-of-type{
+    background-color: darkblue;
+}
+
+.itemActions button:last-of-type{
+    background-color: orange;
+}
+
+.itemActions button{
+    width:50%;
+    border:none;
+    color:white;
+}
+
+.itemActions button:active{
+    transform: scale(1.01);
+}
+
+@media(max-width:80rem){
+    .about{
+        text-align: center;
+    }
+    .aboutIntroText{
+        justify-content: center;
+    }
+
+    .aboutCarImg{
+        max-width: 400px;
+    }
+}
